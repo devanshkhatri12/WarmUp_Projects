@@ -1,0 +1,31 @@
+*{
+    background-color: skyblue;
+    text-justify: auto;
+    text-align: center;
+}
+.container{
+    padding: 40px;
+    margin: 30px;
+    background-color: white;
+    border: 2px solid white;
+    width: 30%;
+    /* align-items: center; */
+}
+h2{
+    background-color: white;
+}
+.joke{
+    background-color: white;
+    margin: 10px;
+    padding: 3px;
+
+}
+.btn{
+    background-color: orange;
+    border: 0px solid orange;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 7px;
+    cursor: pointer;
+
+}
