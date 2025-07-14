@@ -1,0 +1,48 @@
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.heading{
+    color: var(--base);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    align-items: center;
+    background: #193349;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+.controls{
+    margin-bottom: 50px;
+}
+
+a {
+    color: var(--base);
+    text-decoration: none;
+}
+
+input{
+    width: 100px;
+}
